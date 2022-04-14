@@ -1,0 +1,33 @@
+body{
+    /*text-decoration: underline; sublinhado*/
+    /*weight = peso, width = largura, heigth = altura */;
+    /*Medidas Absolutas
+    cm, mm, in, px, pt, pc = recomendado usar 16px
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh,% = recomendado 1em*/
+    font-family: Arial, Helvetica;
+    font-size: ;
+    font-weight: lighter;
+    /*
+    lighter = mais leve
+    normal = peso normal
+    bold = um pouco mais pesado que o nomral
+    bolder= mais pesado
+    */
+    font-style: normal
+}
+h1{
+    /*font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;*/
+    /*shorthand font
+    ordem
+    font-style ->  font-weight -> font-size -> font-family*/
+    font:italic bold 50px Times New Roman, times,serif; /*simplificando tudo em um so linha com shorthand com comando font*/
+}
+h2{
+    font: lighter 40px times new roman
+}
+
